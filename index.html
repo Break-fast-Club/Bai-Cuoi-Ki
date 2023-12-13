@@ -42,22 +42,7 @@
      </main>
  
      <button id="toggleMusic">Tắt/Bật Nhạc</button>
- 
-     <script>
-         const backgroundMusic = document.querySelector('audio');
-         const toggleMusicButton = document.getElementById('toggleMusic');
- 
-         toggleMusicButton.addEventListener('click', () => {
-             if (!backgroundMusic.paused) {
-                 backgroundMusic.pause();
-             } else {
-                 backgroundMusic.play();
-             }
-         });
-     </script>
      
-     
-    
       <!--header section start -->
       <div class="header_section">
          <div class="container-fluid">
@@ -494,6 +479,7 @@
       <script src="js/plugin.js"></script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>     
+      <script src="js/custom.js"></script> 
+      <script src="js/button.js"></script>
    </body>
 </html>
