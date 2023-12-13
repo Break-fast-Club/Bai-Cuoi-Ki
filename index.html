@@ -32,6 +32,32 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
    <body>
+
+      <audio id="backgroundMusic" controls autoplay loop>
+         <source src="/music/Eternity Lives in a Second.mp3" type="audio/mp3">
+     </audio>
+ 
+     <main>
+        
+     </main>
+ 
+     <button id="toggleMusic">Tắt/Bật Nhạc</button>
+ 
+     <script>
+         const backgroundMusic = document.querySelector('audio');
+         const toggleMusicButton = document.getElementById('toggleMusic');
+ 
+         toggleMusicButton.addEventListener('click', () => {
+             if (!backgroundMusic.paused) {
+                 backgroundMusic.pause();
+             } else {
+                 backgroundMusic.play();
+             }
+         });
+     </script>
+     
+     
+    
       <!--header section start -->
       <div class="header_section">
          <div class="container-fluid">
@@ -43,25 +69,25 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Trang chủ</a>
+                        <a id="load-page" class="nav-link" href="index.html">Trang chủ</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">Giới thiệu</a>
+                        <a id="load-page" class="nav-link" href="about.html">Giới thiệu</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Thực đơn</a>
+                        <a id="load-page" class="nav-link" href="menu.html">Thực đơn</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Dịch vụ</a>
+                        <a id="load-page" class="nav-link" href="services.html">Dịch vụ</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                        <a id="load-page" class="nav-link" href="contact.html">Liên hệ</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="game.html">Giải trí</a>
+                        <a id="load-page" class="nav-link" href="game.html">Giải trí</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a id="load-page" class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                      </li>
                   </ul>
                </div>
