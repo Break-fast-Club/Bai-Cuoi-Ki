@@ -9,4 +9,3 @@
              musicPlayer.pause();
            }
          });
-       </script>
