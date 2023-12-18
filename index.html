@@ -48,16 +48,17 @@
          <div class="hoa" style="font-size: 20px;">❀</div>
          </div>
 
-      <audio id="backgroundMusic" controls autoplay loop>
+      <label class="switch">
+         <input type="checkbox" id="toggleMusic">
+         <span class="slider round"></span>
+       </label>
+       
+       <audio id="music" loop>
+         <!-- Thêm nguồn nhạc của bạn vào đây -->
          <source src="./music/Eternity Lives in a Second.mp3" type="audio/mp3">
-     </audio>
- 
-     <main>
-        
-     </main>
- 
-     <button id="toggleMusic">Tắt/Bật Nhạc</button>
-     
+         Your browser does not support the audio element.
+       </audio>
+      
       <!--header section start -->
       <div class="header_section">
          <div class="container-fluid">
