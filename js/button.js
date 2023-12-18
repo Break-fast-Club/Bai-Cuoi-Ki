@@ -1,10 +1,12 @@
-const backgroundMusic = document.querySelector('audio');
-const toggleMusicButton = document.getElementById('toggleMusic');
-
-toggleMusicButton.addEventListener('click', () => {
-    if (!backgroundMusic.paused) {
-        backgroundMusic.pause();
-    } else {
-        backgroundMusic.play();
-    }
-});
+ const toggleMusicCheckbox = document.getElementById('toggleMusic');
+ const musicPlayer = document.getElementById('music');
+       
+     toggleMusicCheckbox.addEventListener('change', function() {
+       
+           if (toggleMusicCheckbox.checked) {
+             musicPlayer.play();
+           } else {
+             musicPlayer.pause();
+           }
+         });
+       </script>
