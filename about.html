@@ -30,6 +30,7 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
    </head>
    <body>
 
@@ -76,7 +77,14 @@
                         <a class="nav-link" href="game.html">Giải trí</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <div class="box">
+                           <form class="sbox" action="/search" method="get">
+                           <input class="stext" type="text" name="q" placeholder="Tìm kiếm bài viết...">
+                           <a class="sbutton" type="submit" href="javascript:void(0);">
+                           <i class="fa fa-search"></i>
+                           </a>
+                           </form>
+                           </div>
                      </li>
                   </ul>
                </div>
