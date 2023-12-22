@@ -1035,7 +1035,7 @@ a:hover {
   display: inline-block;
   width: 60px;
   height: 34px;
-  z-index: 2;
+  z-index: 3;
   top: 25px;
   left: 180px;
 }
@@ -1044,7 +1044,7 @@ a:hover {
   opacity: 0;
   width: 0;
   height: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .slider {
@@ -1057,7 +1057,7 @@ a:hover {
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
-  z-index: 2;
+  z-index: 3;
 }
 
 .slider:before {
@@ -1070,7 +1070,7 @@ a:hover {
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
-  z-index: 2;
+  z-index: 3;
 }
 
 input:checked + .slider {
