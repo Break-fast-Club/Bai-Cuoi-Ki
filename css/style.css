@@ -827,7 +827,7 @@ a:hover {
     width: 100%;
     float: left;
     background-image: url(../images/Background\ two.JPG);
-    height: auto;
+    height: 100%;
     padding: 23px 70px;
     background-repeat: no-repeat;
     background-size: cover;
