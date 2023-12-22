@@ -33,7 +33,14 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
    </head>
    <body>
-
+      <label class="switch">
+         <input type="checkbox" id="toggleMusic">
+         <span class="slider round"></span>
+       </label>
+       <audio id="music" loop>
+         <source src="./music/Eternity Lives in a Second.mp3" type="audio/mp3">
+       </audio>
+      
       <div class="pyro"><div class="before"></div><div class="after"></div></div>
 
             <div class="hoamai" aria-hidden="true">
@@ -237,6 +244,7 @@
         js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-    </script>  
+    </script> 
+   <script src="js/button.js"></script>
    </body>
 </html>
