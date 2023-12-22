@@ -33,6 +33,13 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
    </head>
    <body>
+      <label class="switch">
+         <input type="checkbox" id="toggleMusic">
+         <span class="slider round"></span>
+       </label>
+       <audio id="music" loop>
+         <source src="./music/Eternity Lives in a Second.mp3" type="audio/mp3">
+       </audio>
 
       <div class="pyro"><div class="before"></div><div class="after"></div></div>
 
@@ -194,7 +201,8 @@
       <script src="js/plugin.js"></script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>     
+      <script src="js/custom.js"></script> 
+      <script src="js/button.js"></script>
    </body>
    <!-- Messenger Plugin chat Code -->
    <div id="fb-root"></div>
